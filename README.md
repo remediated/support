@@ -3,47 +3,47 @@ featureful osint discord based bot
 
 # osint commands
 
-snusbase >
+# snusbase >
 sends requests to snusbase's api looking for leaked database breach queries
 
 usage: ,snusbase {username, email}
 
-leakcheck >
+# leakcheck >
 sends requests to leakchecks's api looking for leaked database breach queries
 
 usage: ,leakcheck {email}
 
-sherlock >
+# sherlock >
 social lookup on a provided username
 
 usage: ,sherlock {username}
 
-registered >
+# registered >
 checks what services an email or phone number is registered for
 
 usage: ,registered {email, phone number}
 
-lookup >
+# lookup >
 fetches ip information on domain or ip address
 
 usage: ,lookup {domain, ip address}
 
-vin >
+# vin >
 fetches information on a vehicles vin number
 
 usage: ,vin {vehicles vin number} 
 
-bin >
+# bin >
 fetches information about the issuer of a credit card
 
 usuage: ,bin {card digits}
 
-number >
+# number >
 fetches basic information on a phone number
 
 usage: ,number {phone number}
 
-phosint >
+# phosint >
 fetches advanced information on a phone number
 
 usage: ,phosint {phone number}
