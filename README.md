@@ -36,7 +36,7 @@ usage: ,vin {vehicles vin number}
 # bin >
 fetches information about the issuer of a credit card
 
-usuage: ,bin {card digits}
+usage: ,bin {card digits}
 
 # number >
 fetches basic information on a phone number
@@ -48,44 +48,49 @@ fetches advanced information on a phone number
 
 usage: ,phosint {phone number}
 
+# virustotal
+virustotal analysis on file
+
+usage : ,virustotal {file}
+
 # utility commands
 
-email >
+# email >
 send emails ( can be used for spam )
 
 usage: ,email {email address your sending too} {subject} {body} {amount}
 
-proxies >
+# proxies >
 fetches http, https, socks4 or socks5 proxies
 
 usage: ,proxies {proxy type}
 
-useragent >
+# useragent >
 fetches useragents
 
 usage: ,useragents
 
-traceroute >
+# traceroute >
 traceroutes a ip address
 
 usage: ,traceroute {ip address}
 
-ping >
+# ping >
 sends ping requests to an ip address
 
 usage: ,ping {ip address, domain}
 
-encrypt >
+# encrypt >
 encrypts text in sha256, sha512, md5, sha1
 
 usage: ,encrypt {text} {algorithm}
 
-genpw >
+# genpw >
 dms you a strong randomly genereated password
 
 usage: ,genpw {password length}
 
-shorten >
+# shorten >
 shortens url
 
 usage: ,shorten {url}
