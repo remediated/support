@@ -1,5 +1,5 @@
 # join here to use
-(discord serevr invite)[https://discord.gg/FnfRMRAXW7]
+[discord serevr invite](https://discord.gg/FnfRMRAXW7)
 
 # support
 featureful osint discord based bot
