@@ -6,47 +6,59 @@ featureful osint discord based bot
 
 # osint commands
 
-# snusbase >
+# snusbase 
 sends requests to snusbase's api looking for leaked database breach queries
 
 usage: ,snusbase {username, email}
 
-# leakcheck >
+# leakcheck 
 sends requests to leakchecks's api looking for leaked database breach queries
 
 usage: ,leakcheck {email}
 
-# sherlock >
+# sherlock 
 social lookup on a provided username
 
 usage: ,sherlock {username}
 
-# registered >
+# verification 
+verifys an email & provides information about it
+usage: -verification {email}
+
+# emailfinder 
+finds information based on domain, firt name and last
+usage: -emailfinder {domain} {first name} {last name}
+
+# domainsearch
+finds information and verifys domain
+usage: -domainsearch {domain}
+
+# registered 
 checks what services an email or phone number is registered for
 
 usage: ,registered {email, phone number}
 
-# lookup >
+# lookup 
 fetches ip information on domain or ip address
 
 usage: ,lookup {domain, ip address}
 
-# vin >
+# vin 
 fetches information on a vehicles vin number
 
 usage: ,vin {vehicles vin number} 
 
-# bin >
+# bin 
 fetches information about the issuer of a credit card
 
 usage: ,bin {card digits}
 
-# number >
+# number 
 fetches basic information on a phone number
 
 usage: ,number {phone number}
 
-# phosint >
+# phosint 
 fetches advanced information on a phone number
 
 usage: ,phosint {phone number}
@@ -54,46 +66,46 @@ usage: ,phosint {phone number}
 # virustotal
 virustotal analysis on file
 
-usage : ,virustotal {file}
+usage: ,virustotal {file}
 
 # utility commands
 
-# email >
+# email 
 send emails ( can be used for spam )
 
 usage: ,email {email address your sending too} {subject} {body} {amount}
 
-# proxies >
+# proxies 
 fetches http, https, socks4 or socks5 proxies
 
 usage: ,proxies {proxy type}
 
-# useragent >
+# useragent 
 fetches useragents
 
 usage: ,useragents
 
-# traceroute >
+# traceroute 
 traceroutes a ip address
 
 usage: ,traceroute {ip address}
 
-# ping >
+# ping 
 sends ping requests to an ip address
 
 usage: ,ping {ip address, domain}
 
-# encrypt >
+# encrypt 
 encrypts text in sha256, sha512, md5, sha1
 
 usage: ,encrypt {text} {algorithm}
 
-# genpw >
+# genpw 
 dms you a strong randomly genereated password
 
 usage: ,genpw {password length}
 
-# shorten >
+# shorten 
 shortens url
 
 usage: ,shorten {url}
