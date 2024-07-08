@@ -23,14 +23,17 @@ usage: ,sherlock {username}
 
 # verification 
 verifys an email & provides information about it
+
 usage: -verification {email}
 
 # emailfinder 
 finds information based on domain, firt name and last
+
 usage: -emailfinder {domain} {first name} {last name}
 
 # domainsearch
 finds information and verifys domain
+
 usage: -domainsearch {domain}
 
 # registered 
